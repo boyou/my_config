@@ -10,7 +10,7 @@
 :endfunction
 
 :function OpenFile()
-:	let file_name = expand("%"). "\\". expand("<cWORD>")
+:	let file_name = expand("%"). "/". expand("<cWORD>")
 :	execute "normal 1\<C-W>w"
 :	let split_cmd = "100 split ". file_name
 :	execute split_cmd
