@@ -107,3 +107,4 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 PATH=$PATH:/home/byou/Documents/program/util/
+alias gvim='gvim -f'
