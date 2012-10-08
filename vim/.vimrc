@@ -6,7 +6,7 @@ endif
 
 filetype on
 set autoindent
-set cindent
+set smartindent
 
 set hlsearch
 set incsearch
@@ -17,4 +17,5 @@ set showmatch
 set tabstop=4
 set shiftwidth=4
 
+filetype plugin indent on
 autocmd FileType * silent! source ~/.vim/%:e.vim
